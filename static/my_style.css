@@ -1,3 +1,7 @@
+section{
+    max-width: 700px;
+
+}
 .title{
     font-size: 30px;
     font-weight: bold ;
@@ -14,10 +18,17 @@ h4{
 .li_group{
     padding-top: 20px;
 }
-section div{
+.li_group header p{
+    padding-left: 300px;
+}
+.div_jump{
     display: flex;
     justify-content: left;
     align-items: flex-start;
+    
+}
+span{
+    font-weight: 300;
     
 }
 section footer{
@@ -26,11 +37,38 @@ section footer{
     align-items: flex-start;
 }
 section footer a{
-    padding-left: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+svg{
+    fill-opacity: 0.4;
 }
 img{
-    margin-left: 1000px;
+    margin-left: 200px;
     width: 120px;
     height: 130px;
 }
 
+p{
+    color: #666;
+    font-size: .9rem;
+    line-height: 1.5;
+    margin: 0;
+    text-wrap: pretty
+}
+.counter{
+    display:block;
+    justify-content: center;
+    align-items: left;
+    
+    h3{
+        font-size: 20px;
+        font-weight: bold ;
+        color: black;
+    }
+    h4{
+        font-weight: 500 ;
+        color: black;
+    }
+}
