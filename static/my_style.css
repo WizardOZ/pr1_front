@@ -27,12 +27,6 @@ h4{
 .li_group header p{
     padding-left: 400px;
 }
-.div_jump{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    
-}
 header div{
     display: flex;
     justify-content: left;
@@ -51,12 +45,12 @@ section footer{
     display: flex;
     justify-content: left;
     align-items: flex-start;
+    a{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
 }
-section footer a{
-    padding-top: 20px;
-    padding-left: 20px;
-    text-decoration: none;
-}
+
 svg{
     fill-opacity: 0.4;
 }
