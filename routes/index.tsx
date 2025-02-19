@@ -4,15 +4,13 @@ import Counter from "../islands/Counter.tsx";
 export default function Home() {
   const count = useSignal(false);
   return (
-    <div >
+    <div style="background-color:#f7cdcd">
       {/* Cabecera Info personal */}
       <section class="px-20 py-10 mx-auto"> 
         <div>
           <h2 class="title">Pedro Zuñeda Diego</h2>
           <img
-              src="/logo.svg"
-              width="128"
-              height="128"
+              src="/perfil.jpg"
               alt="Imagen profesional"
             />
         </div>
@@ -125,8 +123,8 @@ export default function Home() {
       </section>
       {/* Formación */}
       <section class="px-20 py-10 mx-auto">
-        <div class="div_jump">
-          <h1 class="title">Formación <Counter count={count} /></h1>
+        <div>
+          <Counter count={count} />
         </div>
       </section>
     

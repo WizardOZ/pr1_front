@@ -1,6 +1,11 @@
 section{
-    max-width: 700px;
+    max-width: 800px;
 
+}
+section div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 .title{
     font-size: 30px;
@@ -17,18 +22,29 @@ h4{
 }
 .li_group{
     padding-top: 20px;
+    
 }
 .li_group header p{
-    padding-left: 300px;
+    padding-left: 400px;
 }
 .div_jump{
     display: flex;
     justify-content: left;
-    align-items: flex-start;
+    align-items: center;
     
 }
+header div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 span{
-    font-weight: 300;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    font-size: .85rem;
+    letter-spacing: -.05rem
     
 }
 section footer{
@@ -46,8 +62,8 @@ svg{
 }
 img{
     margin-left: 200px;
-    width: 120px;
-    height: 130px;
+    width: 150px;
+    height: 120px;
 }
 
 p{
@@ -57,18 +73,41 @@ p{
     margin: 0;
     text-wrap: pretty
 }
-.counter{
-    display:block;
-    justify-content: center;
-    align-items: left;
-    
-    h3{
+.counter-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+button {
+    background-color: #f7cdcd; 
+    color: #6b2b2b;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b3b3;
+}
+
+button:active {
+    background-color: #d99a9a;
+}
+
+.counter {
+    display: block; 
+    margin-top: 20px;
+    h3 {
         font-size: 20px;
-        font-weight: bold ;
+        font-weight: bold;
         color: black;
     }
-    h4{
-        font-weight: 500 ;
+    h4 {
+        font-weight: 500;
         color: black;
     }
 }

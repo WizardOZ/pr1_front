@@ -8,6 +8,7 @@ export default function App({ Component }: PageProps) {
         <title>pr1_front</title>
         <link rel="stylesheet" href="/styles.css" />
         <link rel="stylesheet" href="/my_style.css" />
+        <title>Portafolio de Pedro Zuñeda Diego</title>
       </head>
       <body>
         <Component />
